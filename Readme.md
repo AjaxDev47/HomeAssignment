@@ -34,3 +34,12 @@ HOW TO TRY :
 5. you can copy otp from the terminal of OTP API SERVER SIDE
 6. and then paste it and verify it.
 7. If Successfull it will show you the login activity.
+
+
+HOW TO USE ENTIRE PROJECT PROPERLY ::
+
+You will run main application file of Spring boot (In this case : You need to run OTPapiApplication.java )
+You will run the Android app and then from there you will send the request by tapping request otp
+then Spring boot terminal will provide you OTP
+If you will enter the OTP within 30 seconds it will expire and no longer can be used, for this I had also given a 30 second timer in the app
+If you enter correct otp it will Open the login Activity.
